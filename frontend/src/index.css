@@ -1,0 +1,25 @@
+:root {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  color: #202a35;
+  background: #f5f7f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #202a35;
+  --muted: #788493;
+  --line: #e7ebef;
+  --paper: #fff;
+  --accent: #267c68;
+  --accent-dark: #1c6252;
+  --soft-green: #e9f4f0;
+  --soft-orange: #fff3e8;
+  --soft-blue: #eef4fa;
+  --danger: #bb4b4b;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 360px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; }
